@@ -1,0 +1,41 @@
+body{
+    background-color: crimson;
+    color: white;
+}
+
+#clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+#clock h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+
+.clock-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+}
+
+.clock-items{
+    width: 32%;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 3%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+#date{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
